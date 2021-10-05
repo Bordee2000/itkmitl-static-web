@@ -1,2 +1,4 @@
 FROM nginx:1.21.3-alpine
-COPY /src /usr/share/nginx/html
+COPY src/ /usr/share/nginx/html/
+
+Expose 8080
